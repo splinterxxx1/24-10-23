@@ -1,0 +1,38 @@
+.fondo{
+    width: 300px;
+    border: 2px solid blueviolet;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color: red;
+    animation:titilar 25s 2;
+}
+
+p{
+    animation:colores 5s 2;
+
+
+}
+
+@keyframes titilar {
+    0%{
+        opacity: 0;
+
+
+    }
+    25%{
+        opacity: 1;
+        transform: rotate(-45deg);
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
